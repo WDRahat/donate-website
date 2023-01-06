@@ -1,0 +1,307 @@
+/* css for donate site  */
+
+
+
+/* header css */
+.bgpic {
+    width: 100%;
+    height: 800px;
+    background-image: url('/images/donation2.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+}
+
+/* banner and gradient system style  */
+.banner {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#00000000, #000000);
+
+}
+
+
+.hdiv {
+    max-width: 1100px;
+}
+
+.hdiv .title {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 100px;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.hdiv .description {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.btn-primary {
+    padding: 10px 15px;
+    background: #FF5959;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.headerbtn {
+    display: flex;
+    margin: 0 auto;
+
+}
+
+
+/* donate today section style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+section {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    max-width: 1000px;
+}
+
+section h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: monospace;
+    color: rgb(238, 21, 21);
+}
+
+.section-description {
+    font-size: 20px;
+    color: rgb(36, 30, 30);
+    margin-bottom: 25px;
+}
+
+.price-velo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-velo .price {
+    font-weight: 800;
+    background: #e1dfdf;
+    padding: 45px 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 45px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+.price p {
+    font-size: 30px;
+    color: #d61212;
+    /* margin-right: 50px; */
+
+    color: #565353;
+    font-weight: bold;
+}
+
+
+.clicked {
+    background-color: rgb(242, 218, 218) !important;
+    border: 1px solid #c90c0c !important;
+
+}
+
+.clicked p {
+    color: #c40e0e;
+}
+
+form {
+    max-width: 900px;
+}
+
+.cutomdonate input[type='number'] {
+    width: 100%;
+    text-align: center;
+    padding: 6px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #565353;
+    font-size: 30px;
+    color: #565353;
+    margin: 0 auto;
+
+}
+
+/* Doneat plan*/
+
+.plan-container {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.plan {
+    padding: 60px 30px;
+    margin: 0px 5px;
+    border-radius: 10px;
+}
+
+.color1 {
+    background: #4F9DA61A;
+
+}
+
+.color2 {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+.color3 {
+    background-color: bisque;
+}
+
+.plan img {
+    margin-bottom: 20px;
+}
+
+.plan-title {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.plan-description {
+    font-size: 20px;
+
+}
+
+article {
+    width: 100%;
+}
+
+.blog {
+    display: flex;
+    gap: 94px;
+    margin: 30px 0px;
+}
+
+.blogside img {
+    transition: transform .2s;
+    /* Animation */
+    width: 400px;
+    height: 300px;
+    padding: 50px;
+    border-radius: 10px;
+}
+.blogside img:hover{ transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+}
+
+.blogside-text {
+    margin-top: 70px;
+}
+
+.blogtitle {
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin-bottom: 20px;
+}
+
+.blogdescription {
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #707070;
+}
+
+
+/* update section style */
+.update {
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+/*  subscribe section style  */
+
+.subscribe {
+    max-width: 800px;
+    background: #FFF4D6;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 76px 188px;
+
+}
+
+.subscribe form {
+    width: 450px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.subscribe input[type='email'] {
+    padding: 14px 118px 14px 17px;
+    border-radius: 10px;
+    border: none;
+    border: 0 0 0 1px;
+    outline: none;
+    background: #D9D9D9;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.subscribe input[type='submit'] {
+    padding: 14px 20px;
+    border-radius: 10px;
+    border: none;
+    border: 0 1 0 0px;
+    outline: none;
+    background: #FF5959;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+
+/* footer style */
+
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background: #0B0D17;
+}
+
+footer h2 {
+    font-family: 'Lobster';
+    font-weight: 400;
+    font-size: 36px;
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+
+}
